@@ -1,6 +1,6 @@
 {
   "name": "react-flask-app",
-"homepage": "https://happyperson.github.io/copag/",
+  "homepage": "https://happyperson.github.io/copag/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,10 +14,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-
     "start": "react-scripts start",
-
-   "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start-api": "cd api && venv/bin/flask run --no-debugger",
     "build": "react-scripts build",
@@ -30,7 +28,6 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",
