@@ -8,17 +8,17 @@ const App = () => {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/index">
+          <Route exact path="/copag">
             <Mynavbar />
           </Route>
         </Switch>
         <Switch>
-          <Route exact path="/index">
+          <Route exact path="/copag">
             <Myimage />
           </Route>
         </Switch>
         <Switch>
-          <Route exact path="/index/contact">
+          <Route exact path="/copag/contact">
             <Mycontact />
           </Route>
         </Switch>
